@@ -40,6 +40,10 @@ $docker stop (コンテナ名)
 例えば、上で作成したコンテナにはいかのようにつなぐ
 docker exec -it mysql bash
 
+## docker compose
+複数コンテナの管理が便利に扱える
+https://qiita.com/y_hokkey/items/d51e69c6ff4015e85fce
+
 
 ## エラーメモ
 http://48n.jp/blog/2016/10/05/fix-unable-to-connect-to-docker-daemon/

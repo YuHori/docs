@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+  <title>promise練習</title>
+</head>
+<body>
+<h1>promizeを試す</h1>
+<script type="text/javascript">
+function ExecutorFunc( resolve , reject ){
+
+	console.log("非同期処理の開始");
+
+	// ------------------------------------------------------------
+	// 1 秒後に実行される関数
+	// ------------------------------------------------------------
+	setTimeout(function(){
+
+		if(1){
+			// 成功時
+			resolve("成功した");
+		}else{
+			// 失敗時
+			reject("失敗した");
+		}
+
+		console.log("非同期処理の完了");
+
+	} , 1000 * 1);
+
+}
+
+</script>
+</body>
+</html>
